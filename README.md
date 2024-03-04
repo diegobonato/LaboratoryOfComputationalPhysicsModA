@@ -5,7 +5,7 @@ Exercises that are intended to show that I know Python and standard data analysi
 
 ### Compendium and nice plots
 
-#### Diffusion using random walk
+## Diffusion using random walk
 
 Consider a simple random walk process: at each step in time, a walker jumps right or left (+1 or -1) with equal probability. The goal is to find the typical distance from the origin of a random walker after a given amount of time. 
 To do that, let's simulate many walkers and create a 2D array with each walker as a row and the actual time evolution as columns
@@ -21,7 +21,7 @@ Did you get what you expected?
 
 <img src="imgs/random_walk.png">
 
-#### Kernel Density Estimate
+## Kernel Density Estimate
 
 Produce a KDE for a given distribution (by hand, not using seaborn!):
 
@@ -40,9 +40,7 @@ you can use the scipy function `stats.norm()` for that.
 <img src="imgs/scipy.png">
 
 
-#### Linear algebra - PCA on 3D dataset
-
-# LINEAR ALGEBRA
+## Linear algebra - PCA on 3D dataset
 
 * Generate a dataset with 3 features each with N entries (N being ${\cal O}(1000)$). With $N(\mu,\sigma)$ the normal distribution with mean $\mu$ and $\sigma$  standard deviation, generate the 3 variables $x_{1,2,3}$ such that:
     * $x_1$ is distributed as $N(0,1)$
@@ -57,7 +55,7 @@ you can use the scipy function `stats.norm()` for that.
 
 <img src="imgs/pca.png">
 
-#### Cruve fitting of temperature in Alaska
+## Cruve fitting of temperature in Alaska
 
 The temperature extremes in Alaska for each month, starting in January, are given by (in degrees Celcius):
 
@@ -73,7 +71,7 @@ min: -62, -59, -56, -46, -32, -18, -9, -13, -25, -46, -52, -58
 
 <img src="imgs/curve_fit.png">
 
-#### 2D minimization of a six-hump camelback function** 
+## 2D minimization of a six-hump camelback function** 
 
 $$
 f(x,y) = \left(4-2.1x^2+\frac{x^4}{3} \right) x^2 +xy + (4y^2 -4)y^2
@@ -91,7 +89,7 @@ How many global minima are there, and what is the function value at those points
 
 <img src="imgs/minimize.png">
 
-#### Montecarlo - Radioactive decay chain
+## Montecarlo - Radioactive decay chain
 
 ${\rm Tl}^{208}$ decays to ${\rm Pb}^{208}$ with a half-life of 3.052 minutes. Suppose to start with a sample of 1000 Thallium atoms and 0 of Lead atoms.
 
