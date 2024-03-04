@@ -1,4 +1,4 @@
-# Exercises to pass the Laboratory of Computational Physics mod. A class
+# Exercises for Laboratory of Computational Physics mod. A 
 ## Physics of Data @ University of Padova - October 2022 ~ January 2023
 
 Exercises that are intended to show that I know Python and standard data analysis techniques.
