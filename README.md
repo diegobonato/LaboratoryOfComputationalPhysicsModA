@@ -3,7 +3,7 @@
 
 Exercises that are intended to show that I know Python and standard data analysis techniques.
 
-### Compendium and nice plots
+## Compendium and nice plots
 
 ## Diffusion using random walk
 
