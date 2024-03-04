@@ -3,8 +3,6 @@
 
 Exercises that are intended to show that I know Python and standard data analysis techniques.
 
-## Compendium and nice plots
-
 ## Diffusion using random walk
 
 Consider a simple random walk process: at each step in time, a walker jumps right or left (+1 or -1) with equal probability. The goal is to find the typical distance from the origin of a random walker after a given amount of time. 
